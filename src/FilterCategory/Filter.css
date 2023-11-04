@@ -1,0 +1,59 @@
+/* CSS for the dropdown menu */
+.category-filter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-filter-label {
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropbtn {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 40px 10px 15px;
+    text-align: left;
+    transition: all 0.3s ease;
+    width: 160px;
+  }
+  
+  .dropdown:hover .dropbtn {
+    border-color: #777777;
+  }
+  
+  .dropdown-content {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 36px;
+    width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #4d4d4d;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #333333;
+  }
+  
